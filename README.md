@@ -2,7 +2,11 @@
 
 A quick description of your strapi application
 
-## Installation
+## Local development
+
+The most convenient way how to run Strapi locally is to use docker.
+
+### Installation
 
 1. create `my-project-api` folder
 1. move in and create `docker-compose.yaml` with:
@@ -47,4 +51,4 @@ For other docker images, visit https://hub.docker.com/r/strapi/strapi
 
 1. Copy `.env.example` into `.env` and configure it for local development
 1. Start docker with `docker-compose up -d` (or with Docker Desktop)
-1. Strapi is running on `http://localhost:1337`
+1. Strapi is running on `http://localhost:1337`, graphql on `http://localhost:1337/graphql`
